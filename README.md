@@ -1,2 +1,2 @@
-# MihailSergeevich.github.io
+# Mihail.github.io
 Мой первый сайт
