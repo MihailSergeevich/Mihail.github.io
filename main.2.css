@@ -1,0 +1,272 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+  
+}
+.section {
+  
+}
+.container{
+    height: 100vh;
+    width: 1366px;
+
+}
+
+.header{
+
+    width: 1368px;
+    height: 360px;
+}
+.card{
+
+    width: 301px;
+    height: 668px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 810px;
+    width: 1368px;
+}
+.h2{
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    width: 435px;
+}
+.area{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    height: 700px;
+    width: 435px;
+    color: white;
+}
+.h2_class{
+    color: #1F3F68;
+    width: 430px; 
+    height: 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.form{
+    display: flex;
+ flex-direction: column;
+ 
+  
+}
+.input{
+    box-sizing: border-box;
+    height: 72px;
+    width: 428px;
+    opacity: 0.4;
+/* blue_03 */
+color: #1F3F68;
+border: 1px solid #356EAD;
+border-radius: 10px;
+}
+
+.textarea{
+  width: 428px;
+  height: 144px;  
+opacity: 0.4;
+/* blue_03 */
+color: #1F3F68;
+border: 1px solid #356EAD;
+border-radius: 10px;
+}
+.label{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.04em;
+opacity: 0.8;
+color: #1F3F68;
+}
+.cards__label{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 540px;
+    height: 800px;
+    opacity: 0.8;
+box-shadow: 0 0 25px 0 rgb(114, 114, 168);
+border-radius: 10px;
+}
+.text-arrow{
+display: flex;
+    width: 428px;
+    height: 650px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.button_sub{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.04em;
+background-color: #356EAD;
+box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+border-radius: 10px;
+border: none;
+color: #FFFFFF;
+
+    width: 428px;
+    height: 72px;  
+}
+.map-effect{
+    width: 1366px;
+    height: 480px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+  width: 940px;
+height: 480px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.footer{
+    background-color: #1F3F68;
+    color: white;
+    width: 1368px;
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contaier-1{
+    width: 1368px;
+    height: 391px;
+    border-bottom: 1px solid white;
+
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+
+    
+}
+.contaier-2{
+display: flex;
+flex-direction: column;
+
+    width: 1368px;
+    height: 266px;
+}
+.cont{
+    color: white;
+
+    width: 340px;
+    height: 260px;
+letter-spacing: 0.05em;
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.text  {
+
+/* Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. */
+font-family: 'Roboto';
+font-style: bold;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+letter-spacing: 0.05em;
+/* white */
+color: #FFFFFF;
+opacity: 0.6;
+
+width: 495px;
+height: 80px;
+}
+h4 {
+    font-family: 'Roboto';
+    font-style: bold;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 26px;
+  
+   
+}
+.btn{
+
+    height: 350px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button{
+    width: 236px;
+    height: 56px;
+    background: #5A98D0;
+    border: none;
+}
+h5 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.05em;
+}
+.footer-row{
+    display: flex;
+justify-content: space-around;
+align-items:center ;
+flex-direction: row;
+    width: 1366px;
+    height: 140px;
+}
+.row{
+    width: 300px;
+    height: 200px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+opacity: 0.4;
+letter-spacing: 0.05em;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+
+}
+/* ----------:hover--------- */
+.button:hover{
+
+color: white;
+transition: 0.5s;
+transform:translateY(4px);
+background:rgb(  241, 16, 16) linear-gradient(  rgb(245, 62, 160), rgb(249, 34, 206) 50%);
+
+}
