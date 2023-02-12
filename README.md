@@ -1,2 +1,2 @@
 # MihailPrischepov.github.io
-Мой первый сайт
+Мой первый сайт на github
